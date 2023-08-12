@@ -1,6 +1,6 @@
 # Basic Three.js Raytracer
 
-A simple raytracer using WebGL and Three.js to render static scenes and raytrace them as well.
+A simple raytracer using WebGL and Three.js to render static scenes and raytrace them as well. Additionally, you can view the 🌟 [demo](https://kilinmao.github.io/ray-trace/). 🌟 
 
 ## Features
 * Phong illumination model
