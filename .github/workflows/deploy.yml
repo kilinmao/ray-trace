@@ -26,11 +26,7 @@ jobs:
 
     # 根据你的部署服务，使用相应的Actions
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v2
+      uses: kilinmao/actions-gh-pages@v2
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        user_name: 'kilinmao'
-        repo_name: 'ray-trace'
-        publish_dir: './dist'
-        publish_branch: 'gh-pages'
-        cname: 'ray-trace' # 添加CNAME文件到gh-pages分支
+        github_token: ${{ secrets.ACCESS_TOKEN }}
+        build_dir: dist
