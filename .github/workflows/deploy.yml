@@ -26,9 +26,9 @@ jobs:
 
     # 根据你的部署服务，使用相应的Actions
     - name: Deploy to GitHub Pages
-      uses: actions/deploy-pages@v2
-      env:
-        GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        build_dir: dist
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: dist
+        cname: 'ray-trace'
 
