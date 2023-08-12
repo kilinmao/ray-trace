@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <title>Ray tracing</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <script type="module">
+    import * as MAIN from './main';
+    // just to access all exported variables in main.ts
+    window.main = MAIN;
+  </script>
+</body>
+<style>
+  html,
+  body {
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  canvas {
+    display: block;
+  }
+</style>
+
+</html>

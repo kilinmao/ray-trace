@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+canvas{
+  display: block;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+body .dg.ac{
+  z-index: 10;
+}
+
+body .window{
+  min-width: 0;
+  min-height: 0;
+}

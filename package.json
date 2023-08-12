@@ -1,0 +1,51 @@
+{
+    "name": "ray-tracing",
+    "version": "3.0.0",
+    "description": "A starter project for using React, TypeScript, SCSS and Webpack",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack serve --mode development --progress --hot --config ./webpack.config.development.js",
+        "build": "webpack --mode production --config ./webpack.config.production.js"
+    },
+    "keywords": [
+        "react",
+        "typescript",
+        "webpack",
+        "scss"
+    ],
+    "author": "Grant Bartlett",
+    "license": "MIT",
+    "dependencies": {
+        "@types/canvas-confetti": "^1.6.0",
+        "@types/dat.gui": "^0.7.10",
+        "@types/stats.js": "^0.17.0",
+        "@types/three": "^0.155.0",
+        "dat.gui": "^0.7.9",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "stats.js": "^0.17.0",
+        "three": "^0.155.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.15",
+        "@types/react-dom": "^18.0.6",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "css-loader": "^6.7.1",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.6.1",
+        "postcss": "^8.4.14",
+        "postcss-loader": "^7.0.1",
+        "postcss-preset-env": "^7.7.2",
+        "sass": "^1.53.0",
+        "sass-loader": "^13.0.2",
+        "style-loader": "^3.3.1",
+        "terser-webpack-plugin": "^5.3.3",
+        "ts-loader": "^9.3.1",
+        "typescript": "^4.7.4",
+        "webpack": "^5.73.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.9.3"
+    }
+}
