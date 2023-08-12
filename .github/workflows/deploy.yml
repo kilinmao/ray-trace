@@ -26,7 +26,7 @@ jobs:
 
     # 根据你的部署服务，使用相应的Actions
     - name: Deploy to GitHub Pages
-      uses: kilinmao/ray-trace@v1
+      uses: actions/deploy-pages@v2
       with:
         github_token: ${{ secrets.ACCESS_TOKEN }}
         build_dir: dist
